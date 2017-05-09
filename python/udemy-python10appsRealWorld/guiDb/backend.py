@@ -65,8 +65,8 @@ def close():
     print("close")
 
 connect()
-addEntry("The Sun", "John Smith", 1918, 913123132)
+#addEntry("The Sun", "John Smith", 1918, 913123132)
 #delEntry(6)
-updateEntry(8,"TEST","TEST",2017,0000)
-print(viewAll())
-#print(searchEntry(author="John Smith"))
+#updateEntry(8,"TEST","TEST",2017,0000)
+#print(viewAll())
+#print(searchEntry(author="TEST"))
