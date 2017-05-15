@@ -18,8 +18,9 @@ def listeTuple(n):
 		a += 1
 	return solutions
 
-n = 100000003
+n = 101
 
 solutions = listeTuple(n)
-print (len(solutions))
-print (solutions)
+
+print(len(solutions))
+print(solutions)
