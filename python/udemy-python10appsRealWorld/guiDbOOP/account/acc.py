@@ -44,14 +44,14 @@ class Checking(Account):
         """
         self.balance = self.balance - amount - self.fee
 
-jacks_account = Checking("account//jack.txt", 1)
+jacks_account = Checking("guiDbOOP//account//jack.txt", 1)
 print(jacks_account.balance)
 jacks_account.transfert(100)
 print(jacks_account.balance)
 jacks_account.commit()
 print(jacks_account.type)
 
-john_account = Checking("account//john.txt", 1)
+john_account = Checking("guiDbOOP//account//john.txt", 1)
 print(john_account.balance)
 john_account.transfert(200)
 print(john_account.balance)
