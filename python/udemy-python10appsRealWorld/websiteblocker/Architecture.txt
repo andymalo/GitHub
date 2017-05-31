@@ -1,4 +1,0 @@
-Program Architecture
-
-Mac and Linux : /etc/hosts
-Widnows : C:\Windows\System32\drivers\etc
